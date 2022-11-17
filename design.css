@@ -1,0 +1,157 @@
+body {
+    background-color: rgba(255, 196, 0, 0.644);
+}
+
+input {
+    width: 45px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 60px;
+    background-color: blanchedalmond;
+}
+
+#name {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.subHeading1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.subHeading2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.sudoku_grid {
+    display: flex;
+    flex-direction: row;
+    max-width: 578px;
+    flex-wrap: wrap;
+
+    margin: 20px auto;
+}
+
+.sudoku_grid div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 40px;
+    border-radius: 5px 5px 5px 5px;
+    box-sizing: border-box;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 80px;
+
+    /* color: #3Ded97; */
+}
+
+
+#SolvePuzzle,
+#GetPuzzle {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #515551;
+    padding: 10px 35px;
+    font-size: 24px;
+    border: 1px solid #2d6898;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.089);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+#SolvePuzzle:hover,
+#GetPuzzle:hover {
+    background-color: rgba(255, 0, 0, 0.87);
+    color: black;
+    transform: scale(0.99);
+    transition: 0.2s ease;
+}
+
+.box1 {
+    background-color: #000000;
+    border: 2px solid white;
+}
+
+.box1:hover {
+    background-color: #48aaaD;
+    color: black;
+}
+
+.box2 {
+    background-color: #000000;
+    border: 2px solid white;
+}
+
+.box2:hover {
+    background-color: red;
+}
+
+.box3 {
+    background-color: #000000;
+    border: 2px solid white;
+}
+
+.box3:hover {
+    background-color: #3Ded97;
+    color: black
+}
+
+.bl {
+    border-left: 6px solid rgba(128, 128, 128, 0.685);
+}
+
+.bb {
+    border-bottom: 6px solid rgba(128, 128, 128, 0.685);
+}
+
+.br {
+    border-right: 6px solid rgba(128, 128, 128, 0.685);
+}
+
+.bt {
+    border-top: 6px solid rgba(128, 128, 128, 0.685);
+}
